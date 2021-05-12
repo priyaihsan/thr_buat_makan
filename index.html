@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+        <!-- my CSS -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        
+
+        <title>THR buat aku</title>
+	</head>
+	<body style="background-color: #1e7aaf;">
+        <section>
+            <div class="text-center mt-5">
+                <label>Nama</label>
+                <input type="text" id="nama" placeholder="Masukkan Nama" />
+                <input id="submit" onclick="say()" type="submit" class="btn btn-primary"></input>
+                <p style="font-size: 16px; color: white; margin-top: 10px;">jangan lupa setelah isi nama di isi yaa dompet ku, hehehe....</p>
+            </div>
+            <div class="text-center mt-5">
+                <img src="thr.jpg" alt="barcode-dana" width="150" id="barcode-dana">
+                <p style="font-size: 20px;font-weight: bolder; color: rgb(250, 250, 250);">Send Me</p>
+                <p id="output"></p>
+            </div>
+        </section>
+		<script src="main.js"></script>
+	</body>
+</html>
