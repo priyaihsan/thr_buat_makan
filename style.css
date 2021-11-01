@@ -24,14 +24,31 @@
 }
 
 p {
+	position: relative;
 	margin: 12px auto;
 	padding: 0;
 }
 
+button {
+	position: relative;
+}
+
 #colorloop p {
-	color: #1a5b81;
+	color: #cccccc54;
 }
 
 #colorloop span {
 	color: #000000;
+}
+
+#null {
+	display: none;
+}
+
+#myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
 }
