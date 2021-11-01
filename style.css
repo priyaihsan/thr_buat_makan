@@ -1,0 +1,37 @@
+@keyframes backgroundColorPalette {
+	0% {
+		background-color: #26fa9a;
+	}
+	25% {
+		background-color: #fcee67;
+	}
+	50% {
+		background-color: #ff4081;
+	}
+	75% {
+		background-color: #18ffff;
+	}
+	100% {
+		background-color: #26fa9a;
+	}
+}
+
+#colorloop span {
+	animation-name: backgroundColorPalette;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+p {
+	margin: 12px auto;
+	padding: 0;
+}
+
+#colorloop p {
+	color: #1a5b81;
+}
+
+#colorloop span {
+	color: #000000;
+}

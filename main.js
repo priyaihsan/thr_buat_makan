@@ -1,3 +1,4 @@
 function changeColor() {
-	$('[id="color"]').css('background-color', 'yellow');
+	var color = document.getElementById('color');
+	color.id = 'colorloop';
 }
